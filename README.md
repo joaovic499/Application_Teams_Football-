@@ -13,7 +13,7 @@
 
   <h2>Clonar o Repositório</h2>
   <p>Abra o terminal (ou prompt de comando) em seu computador e execute o seguinte comando para clonar o repositório:</p>
-  <pre><code>git clone https://github.com/joaovic499/Application_Teams_Football.git</code></pre>
+  <pre><code>git clone https://github.com/joaovic499/Application_Teams_Football-.git</code></pre>
 
   <h2>Acessar o Diretório do Projeto</h2>
   <p>Entre no diretório do projeto que acabou de ser clonado:</p>
