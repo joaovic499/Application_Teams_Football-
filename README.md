@@ -6,8 +6,8 @@
   <h2>Pré-requisitos</h2>
   <p>Antes de prosseguir, certifique-se de que você tenha o seguinte software instalado em sua máquina:</p>
   <ol>
-    <li><a href="https://www.ruby-lang.org/">Ruby</a> (Versão 3.0.2p107 ou superior)</li>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a> (Versão 7.0.6 ou superior)</li>
+    <li><a href="https://www.ruby-lang.org/">Ruby</a> (Versão 3.0.2p107)</li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a> (Versão 7.0.6)</li>
     <li><a href="https://git-scm.com/">Git</a></li>
   </ol>
 
