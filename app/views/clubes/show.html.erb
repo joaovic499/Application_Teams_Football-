@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @clube %>
+
+<div>
+  <%= link_to "Edit this clube", edit_clube_path(@clube) %> |
+  <%= link_to "Back to clubes", clubes_path %>
+
+  <%= button_to "Destroy this clube", @clube, method: :delete %>
+</div>

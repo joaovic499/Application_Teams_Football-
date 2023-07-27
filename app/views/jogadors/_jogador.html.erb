@@ -1,0 +1,39 @@
+<div id="<%= dom_id jogador %>">
+
+  <p>
+    <%= image_tag jogador.url_image, size: "150x150" %>
+  </p>
+
+  <p>
+    <strong>Nome:</strong>
+    <%= jogador.nome %>
+  </p>
+
+  <p>
+    <strong>Nacionalidade:</strong>
+    <%= jogador.nacionalidade %>
+  </p>
+
+  <p>
+    <strong>Idade:</strong>
+    <%= jogador.idade %>
+  </p>
+
+  <p>
+    <strong>Posicao:</strong>
+    <%= jogador.posicao %>
+  </p>
+
+  <p>
+    <strong>Overall:</strong>
+    <%= jogador.overall %>
+  </p>
+
+  <p>
+    <strong>Time:</strong>
+    <%= jogador.Clube.Nome if jogador.Clube %>
+  </p>
+ 
+
+
+</div>

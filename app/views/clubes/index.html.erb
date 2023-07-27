@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Clubes</h1>
+
+<div id="clubes">
+  <% @clubes.each do |clube| %>
+    <%= render clube %>
+    <p>
+      <%= link_to "Show this clube", clube %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New clube", new_clube_path %>
+<p> <%= link_to "Jogadores", jogadors_path %> <p>
+<p> <%= link_to "Menu", inicio_path %> <p>
+
+

@@ -1,0 +1,19 @@
+<p style="color: green"><%= notice %></p>
+
+<p>
+<%=data_br(Date.today) %>
+</p>
+<h1>Jogadores</h1>
+
+<div id="jogadors">
+  <% @jogadors.each do |jogador| %>
+    <%= render jogador %>
+    <p>
+      <%= link_to "Mostrar", jogador %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "Novo", new_jogador_path %>
+<p> <%= link_to "Menu Principal", inicio_path %> </p>
+

@@ -1,0 +1,50 @@
+<%= form_with(model: jogador) do |form| %>
+  <% if jogador.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(jogador.errors.count, "error") %> prohibited this jogador from being saved:</h2>
+
+      <ul>
+        <% jogador.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :nome, style: "display: block" %>
+    <%= form.text_field :nome %>
+  </div>
+
+  <div>
+    <%= form.label :nacionalidade, style: "display: block" %>
+    <%= form.text_field :nacionalidade %>
+  </div>
+
+  <div>
+    <%= form.label :idade, style: "display: block" %>
+    <%= form.number_field :idade %>
+  </div>
+
+  <div>
+    <%= form.label :posicao, style: "display: block" %>
+    <%= form.text_field :posicao %>
+  </div>
+
+  <div>
+    <%= form.label :overall, style: "display: block" %>
+    <%= form.number_field :overall %>
+  </div>
+
+  <div>
+    <%= form.label :url_image, style: "display: block" %>
+    <%= form.text_field :url_image %>
+  </div>
+
+  <div>
+  <%= form.label :Nome, "Time", style: "display: block;" %>
+  <%= form.select :Clube_id, @clube_type_options, { include_blank: true } %>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
